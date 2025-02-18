@@ -16,3 +16,4 @@ def profile():
         return redirect(url_for('auth.login'))
 
     return render_template("faculty/profile.html", user=user, faculty=faculty)
+
